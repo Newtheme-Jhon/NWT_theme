@@ -1,0 +1,49 @@
+@import 'variables';
+
+.bg-color-container{
+    background-color: $color_menu;
+    #navbarNavDropdown{
+        justify-content: flex-end;
+    }
+}
+.navbar-nav{
+    li{
+        a{
+            color: $colorTextMenu;
+            text-decoration: none;
+        }
+    }
+}
+
+//Footer styles
+.footer{
+    .block-01{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: $color_menu;
+        .logo-footer{
+            color: $colorTextMenu;
+            .custom-logo-link{
+                display: block;
+            }
+        }
+        .lista-servicios{
+            color: $colorTextMenu;
+        }
+        .ubicacion{
+            color: $colorTextMenu;
+        }
+    }
+    .block-02{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: $colorFooter_2;
+        .text-footer{
+            color: $colorTextMenu;
+            a{
+                color: $colorTextMenu;
+            }
+        }
+    }
+}
+

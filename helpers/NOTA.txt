@@ -1,0 +1,2 @@
+Bootstrap 5.2.3 /Febrero 2023
+Fontawesome 6.2.1 /Febrero 2023

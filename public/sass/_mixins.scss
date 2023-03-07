@@ -1,0 +1,59 @@
+@mixin breakpoint($consulta){
+
+    $media-xs: "(max-width: 575.98px)"; //Movil
+    $media-sm: "(min-width: 576px) and (max-width: 767.98px)"; //movil up tablet
+    $media-md: "(min-width: 768px) and (max-width: 991.98px)";
+    $media-lg: "(min-width: 992px) and (max-width: 1199.98px)";
+    $media-xl: "(min-width: 1200px) and (max-width: 1399.98px)";
+    $media-xxl: "(min-width: 1400px)";
+
+    @if $consulta == xs {
+        @media #{$media-xs} {@content;}
+    }
+    @else if $consulta == sm {
+        @media #{media-sm} {@content;}
+    }
+    @else if $consulta == md {
+        @media #{media-md} {@content;}
+    }
+    @else if $consulta == lg {
+        @media #{media-lg} {@content;}
+    }
+    @else if $consulta == xl {
+        @media #{media-xl} {@content;}
+    }
+    @else if $consulta == xxl {
+        @media #{media-xxl} {@content;}
+    }
+
+}
+
+@mixin breakpoint-max-width($consulta){
+
+    $media-xs: "screen and (max-width: 0px)"; 
+    $media-sm: "screen and (max-width: 576px)"; 
+    $media-md: "screen and (max-width: 768px)"; 
+    $media-lg: "screen and (max-width: 992px)"; 
+    $media-xl: "screen and (max-width: 1200px)"; 
+    $media-xxl: "screen and (max-width: 1400px)"; 
+
+    @if $consulta == xs {
+        @media #{$media-xs} {@content;}
+    }
+    @else if $consulta == sm {
+        @media #{media-sm} {@content;}
+    }
+    @else if $consulta == md {
+        @media #{media-md} {@content;}
+    }
+    @else if $consulta == lg {
+        @media #{media-lg} {@content;}
+    }
+    @else if $consulta == xl {
+        @media #{media-xl} {@content;}
+    }
+    @else if $consulta == xxl {
+        @media #{media-xxl} {@content;}
+    }
+
+}

@@ -1,0 +1,8 @@
+Importante!!
+
+Crear el menú de redes sociales.
+Es muy importante que al crear los enlaces que asociemos a nuestro menú de redes sociales
+escribamos bien el enlace de la red social y escribamos bien el nombre del texto del enlace.
+Ejemplo:
+URL: https://www.facebook.com/
+texto del enlace: facebook
